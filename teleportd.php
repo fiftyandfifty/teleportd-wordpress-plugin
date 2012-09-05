@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Teleportd Cache
-Plugin URI: https://github.com/shanaver/Teleportd-Wordpress-Plugin
+Plugin URI: http://github.com/fiftyandfifty/teleportd-wordpress-plugin
 Description: Grabs image posts from social photo APIs like teleportd, instagram & twitter.  Stores thumbnails & details locally in a custom post_type so you don't have to worry about API issues & constantly pulling the same data remotely.  Also this allows you to remove images if you don't like them and blacklist users if needed.
 Version: 1.0.0
 Author: Bryan Shanaver
