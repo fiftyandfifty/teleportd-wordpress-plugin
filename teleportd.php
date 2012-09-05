@@ -93,7 +93,7 @@ add_filter('manage_edit-teleportd_images_columns', 'teleportd_extra_columns');
 
 /* crons */
 
-//register_activation_hook( __FILE__ , 'get_teleportd_pics_create' );
+register_activation_hook( __FILE__ , 'get_teleportd_pics_create' );
 add_action('get_teleportd_pics_cron', 'get_teleportd_pics' );
 register_deactivation_hook( __FILE__ , 'get_teleportd_pics_deactivate' );
 
