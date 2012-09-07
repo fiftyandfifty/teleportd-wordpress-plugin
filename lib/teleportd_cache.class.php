@@ -366,7 +366,7 @@ class TELEPORTD_CACHE {
            'post_type' => 'teleportd_images',
            'post_title' => $platform->pic_clean_title,
            'post_content' => $post_content,
-           'post_status' => ($plugin_options['always_private'] == 'Yes' ? 'private' : 'publish'),
+           'post_status' => ($plugin_options['always_private'] == 'No' ? 'publish' : 'private' ),
           );
           $post_id = wp_insert_post( $post, true );
           
